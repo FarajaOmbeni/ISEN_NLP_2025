@@ -1,0 +1,116 @@
+﻿Compte rendu 1 : Réunion de lancement (Semaine 1)
+Date : Lundi 6 novembre 2024
+Participants : 6 (Product Owner, 4 développeurs, UX Designer)
+Objectif : Définir la vision du projet et les grandes étapes.
+Points discutés :
+1. Objectifs principaux :
+   * Créer un réseau social axé sur le partage de contenus courts et visuels.
+   * Mettre l'accent sur une expérience utilisateur fluide et intuitive.
+2. Décisions clés :
+   * Technologie back-end : Node.js.
+   * Technologie front-end : React.js.
+   * Base de données : MongoDB.
+3. Prochaines étapes :
+   * Finaliser le cahier des charges.
+   * Débuter la conception de l’architecture technique.
+________________
+
+
+Compte rendu 2 : Réunion d'architecture technique (Semaine 2)
+**Date : Vendredi 10 novembre 2024
+Participants : 5 (Lead Dev, DevOps, 3 développeurs)
+Objectif : Définir les composants techniques.
+Points discutés :
+1. Structure de l'application :
+   * Microservices pour l'évolutivité.
+   * API REST pour la communication entre services.
+2. Infrastructure :
+   * Utilisation de AWS (S3 pour le stockage, EC2 pour les serveurs).
+   * CI/CD avec GitHub Actions.
+3. Décisions clés :
+   * Sécuriser l’authentification avec OAuth 2.0.
+   * Prioriser la scalabilité pour gérer une base utilisateur croissante.
+________________
+
+
+Compte rendu 3 : Réunion UX/UI (Semaine 3)
+**Date : Mercredi 15 novembre 2024
+Participants : 4 (UX Designer, Product Owner, 2 développeurs front-end)
+Objectif : Finaliser les maquettes du MVP.
+Points discutés :
+1. Principales fonctionnalités du MVP :
+   * Création de comptes et authentification.
+   * Publication de posts avec images.
+   * Fil d’actualités personnalisé.
+2. Design :
+   * Palette de couleurs choisie : Bleu/Blanc/Gris.
+   * Interface minimaliste et responsive.
+________________
+
+
+Compte rendu 4 : Réunion de planification (Semaine 4)
+**Date : Lundi 20 novembre 2024
+Participants : 5 (Scrum Master, 4 développeurs)
+Objectif : Organiser le premier sprint.
+Points discutés :
+1. Tâches pour le sprint 1 :
+   * Configurer l’environnement de développement.
+   * Mettre en place l’authentification utilisateur.
+   * Créer la structure de la base de données.
+2. Estimation des tâches :
+   * Total : 20 Story Points.
+________________
+
+
+Compte rendu 5 : Réunion de revue de sprint (Semaine 5)
+**Date : Vendredi 24 novembre 2024
+Participants : 6 (Scrum Master, Product Owner, 4 développeurs)
+Objectif : Valider les résultats du sprint 1.
+Points discutés :
+1. Tâches accomplies :
+   * Authentification utilisateur fonctionnelle.
+   * Base de données initialisée avec les schémas principaux.
+2. Points bloquants :
+   * Problèmes de compatibilité avec une bibliothèque Node.js.
+________________
+
+
+Compte rendu 6 : Réunion sur la sécurité (Semaine 6)
+**Date : Mercredi 29 novembre 2024
+Participants : 5 (Lead Dev, DevOps, 3 développeurs)
+Objectif : Anticiper les vulnérabilités potentielles.
+Points discutés :
+1. Mesures mises en place :
+   * Chiffrement des mots de passe avec bcrypt.
+   * Utilisation de tokens JWT avec expiration.
+2. Prochaines étapes :
+   * Ajouter la vérification par email lors de l'inscription.
+________________
+
+
+Compte rendu 7 : Réunion d'intégration (Semaine 7)
+**Date : Lundi 4 décembre 2024
+Participants : 6 (Toute l’équipe)
+Objectif : Tester l'intégration des modules back-end et front-end.
+Points discutés :
+1. Tests réalisés :
+   * Connexion entre l’API et l’interface utilisateur.
+   * Publication d’un post basique.
+2. Problèmes détectés :
+   * Temps de réponse élevé pour le chargement des images.
+________________
+
+
+Compte rendu 8 : Réunion de revue du MVP (Semaine 8)
+**Date : Vendredi 1 janvier 2024
+Participants : Toute l’équipe
+Objectif : Valider le MVP avant le lancement en bêta-test.
+Points discutés :
+1. Fonctionnalités validées :
+   * Création de comptes.
+   * Fil d’actualités.
+   * Publication de posts avec images.
+2. Axes d’amélioration :
+   * Optimisation des performances.
+   * Ajout d’une barre de recherche pour le fil.
+Décision finale : Lancement de la version bêta prévu le 32 décembre 2024.
